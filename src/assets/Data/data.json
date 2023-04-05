@@ -1,0 +1,85 @@
+{
+    "portada":{
+        "frase":"Logra tu cuerpo ideal no nosotros!",
+        "frase1":"Cumplimos tu sueño de lograr ese cuerpo ideal",
+        "button":"Comienza ahora"
+    },
+    "info":[
+        {   
+            "img":"./assets/img/pesa.svg",
+            "title":"Rutina",
+            "text":"Actividades diarias, semanales o mensuales que son importantes para alcanzar objetivos específicos o simplemente para mantener un estilo de vida saludable y equilibrado."
+        },
+        {   
+            "img":"./assets/img/arros.svg",
+            "title":"Alimentación",
+            "text":"Una dieta equilibrada y variada, rica en nutrientes como proteínas, carbohidratos, grasas saludables, vitaminas y minerales, puede ayudar a prevenir enfermedades y reducir el riesgo de padecer afecciones."
+        },
+        {   
+            "img":"./assets/img/chat.svg",
+            "title":"Seguimiento",
+            "text":"El seguimiento de su rutina de ejercicios puede ser una herramienta valiosa para ayudarlo a alcanzar sus metas de acondicionamiento físico y para mantenerse motivado en su viaje de entrenamiento."
+        }
+    ],
+    "aboutME":{
+        "title":"Quienes somos?",
+        "text":"Hola, mi nombre es Alan Schmidt y soy un preparador físico certificado y un estudiante de Ciencias de la Actividad Física y del Deporte (CAFYD). Soy un apasionado del mundo del fitness y he dedicado mi carrera a ayudar a las personas a alcanzar sus objetivos de acondicionamiento físico.",
+        "button":"Sigueme"
+    },
+    "planes":[
+        {
+            "text1":"Bronze",
+            "membresia":"Free",
+            "text2":"Rutina simple",
+            "text3":"Sin guía alimentación",
+            "text4":"Sin seguimiento",
+            "button":"Empieza ahora"
+        },
+        {
+            "text1":"Silver",
+            "membresia":"$3000/mes",
+            "text2":"Rutina generica",
+            "text3":"Guía alimentación",
+            "text4":"Seguimiento mensual",
+            "button":"Empieza ahora"
+        },
+        {
+            "text1":"Gold",
+            "membresia":"$4000/mes",
+            "text2":"Rutina personalizada",
+            "text3":"Guía alimentación",
+            "text4":"Seguimiento semanal",
+            "button":"Empieza ahora"
+        }
+    ],
+    "testimonials":[
+        {   
+            "id":"1",
+            "title":"Facundo Goro",
+            "subtitle":"Jugador profesional de Lol.",
+            "text":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!"
+        },
+        {   
+            "id":"2",
+            "title":"Ulises Padilla,",
+            "subtitle":"Jugador profesional Pelota-Paleta.",
+            "text":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!"
+        }
+    ],
+    "preguntas":[
+        {
+
+            "question":"¿Necesito llevar una dieta sana?",
+            "answer":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque?"
+        },
+        {
+            "question":"¿Puedo entrenar en casa?",
+            "answer":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque?"
+        },
+        {
+            "question":"¿Debo hacer musculación?",
+            "answer":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque?"
+        }
+    ]
+
+}

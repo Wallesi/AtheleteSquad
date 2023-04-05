@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LeerJsonService } from 'src/app/servicios/leer-json.service';
 
 
 @Component({
@@ -7,11 +8,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav-portada.component.css']
 })
 export class NavPortadaComponent implements OnInit {
-
-  constructor() { }
+  datosNav:any;
+  
+  constructor(private leerDatos:LeerJsonService) { }
 
   ngOnInit(): void {
-    
+      
+    this.leerDatos.obtenerDatos().subscribe(data=>{
+      this.datosNav = data.portada;
+    })
+
     const openButton = document.querySelector('.nav__menu') as HTMLElement;
     const menu = document.querySelector('.nav__link') as HTMLElement;
     const closeMenu = document.querySelector('.nav__close') as HTMLElement;

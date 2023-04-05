@@ -4,32 +4,22 @@
   <p class="about__paragraph">Todo lo necesario y obligatorio para poder llegar a tu cuerpo ideal... dieta, rutina de ejercicios y seguimiento.</p>
 
   <div class="about__main">
-      <article class="about__icons">
-          <img src="./assets/img/pesa.svg" class="about__icon">
-          <h3 class="about__title">Rutina</h3>
-          <p class="about__paragrah">Actividades diarias, semanales o mensuales que son importantes para alcanzar objetivos específicos o simplemente para mantener un estilo de vida saludable y equilibrado.</p>
+
+      <article class="about__icons" *ngFor="let about of datosAbout">
+          <img [src]="about.img" class="about__icon">
+          <h3 class="about__title">{{about.title}}</h3>
+          <p class="about__paragrah">{{about.text}}</p>
       </article>
 
-      <article class="about__icons">
-          <img src="./assets/img/arros.svg" class="about__icon">
-          <h3 class="about__title">Alimentación</h3>
-          <p class="about__paragrah">Una dieta equilibrada y variada, rica en nutrientes como proteínas, carbohidratos, grasas saludables, vitaminas y minerales, puede ayudar a prevenir enfermedades y reducir el riesgo de padecer afecciones.</p>
-      </article>
-
-      <article class="about__icons">
-          <img src="./assets/img/chat.svg" class="about__icon">
-          <h3 class="about__title">Seguimiento</h3>
-          <p class="about__paragrah">El seguimiento de su rutina de ejercicios puede ser una herramienta valiosa para ayudarlo a alcanzar sus metas de acondicionamiento físico y para mantenerse motivado en su viaje de entrenamiento. </p>
-      </article>
   </div>
 </section>
 
 <section class="knowledge" id="quienes somos">
             <div class="knowledge__container container">
                 <div class="knowledege__texts">
-                    <h2 class="subtitle">Quienes somos?</h2>
-                    <p class="knowledge__paragraph">Hola, mi nombre es Alan Schmidt y soy un preparador físico certificado y un estudiante de Ciencias de la Actividad Física y del Deporte (CAFYD). Soy un apasionado del mundo del fitness y he dedicado mi carrera a ayudar a las personas a alcanzar sus objetivos de acondicionamiento físico.</p>
-                    <a href="https://www.instagram.com/alanschmidt6075/" class="cta">Sigueme</a>
+                    <h2 class="subtitle">{{datosAboutUs.title}}</h2>
+                    <p class="knowledge__paragraph">{{datosAboutUs.text}}</p>
+                    <a href="https://www.instagram.com/alanschmidt6075/" class="cta">{{datosAboutUs.button}}</a>
                 </div>
 
                 <figure class="knowledge__picture">

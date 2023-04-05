@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LeerJsonService } from 'src/app/servicios/leer-json.service';
 
 @Component({
   selector: 'app-planes',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./planes.component.css']
 })
 export class PlanesComponent implements OnInit {
-
-  constructor() { }
+  datosPlanes:any;
+  constructor(private leerDatos:LeerJsonService) { }
 
   ngOnInit(): void {
+    this.leerDatos.obtenerDatos().subscribe(data=>{
+      this.datosPlanes = data.planes;
+    })
+
   }
 
 }
